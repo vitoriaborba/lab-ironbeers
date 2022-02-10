@@ -5,3 +5,78 @@ dark-blue: #0a2c42;
 grey: #bfbfbf;
 font-family: Arial, Helvetica, sans-serif;
 */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color:#f7f9f9;
+}
+.nav-bar {
+    background-color: #2081c3;
+    padding: 14px 0;
+  }
+
+   a {
+    font-size: 1em;
+    text-decoration: none;
+    color: #f7f9f9;
+  }
+
+  .nav-bar-ul {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-around;
+  }
+   li {
+    list-style-type: none;
+    text-align: center;
+  }
+  .beers li {
+    background-color: #2081c3;
+    padding: 20px 20px;
+    border-radius: 10%;
+    margin-bottom: 15px;
+    border-style: dashed;
+
+  }
+
+  .nav-bar-item:hover {
+    font-size: 1.2em;
+  }
+  .beers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .beers img {
+    width: 300px;
+    height: 300px;
+    padding-top: 100px ;
+    padding-bottom: 50px;
+  }
+  .row img { 
+    width: 100px;
+    height: 250px;
+    margin: 2em;
+  }
+  .row {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .container {
+    width: 250px;
+    margin: 20px auto;
+    padding: 50px ;
+    background-color: #bfbfbf;
+    border-radius: 10%;
+  }
+  footer {
+    background-color: #0a2c42;
+    padding: 8px 0;
+  }
+  footer p {
+    font-size: 0.9em;
+    color:  #f7f9f9;
+    padding-left: 10px;
+  }
