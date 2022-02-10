@@ -69,7 +69,22 @@ body {
     margin: 20px auto;
     padding: 50px ;
     background-color: #bfbfbf;
-    border-radius: 10%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .container-random {
+    width: 400px;
+    margin: 20px auto;
+    padding: 50px ;
+    background-color: #bfbfbf;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   footer {
     background-color: #0a2c42;
